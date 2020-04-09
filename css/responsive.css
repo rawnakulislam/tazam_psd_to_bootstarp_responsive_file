@@ -1,0 +1,374 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+	background: #2b4488;
+	padding: 5px 0 !important;
+}
+.storyimges {
+	padding: 100px 0 0 40px;
+}
+    .innerp {
+	padding: 50px 50px 40px 50px;
+}
+    .from {
+	width: 350px;
+	margin-bottom: 15px;
+}
+    textarea {
+	width: 350px;
+}
+    .clien1 img {
+        width: 70%;
+}
+    .clien2 img {
+        width: 70%;
+        margin-bottom: 60px;
+}
+    
+    .lasth5 {
+	font-size: 16px;
+	font-weight: 700;
+}
+    .footer1stp {
+	font-size: 13px;
+        padding-bottom: 55px;
+}
+    .slideimages {
+	padding-left: 30px;
+}
+    .ankor a {
+	font-size: 10px;
+}
+    .ankor{
+	width: 245px;
+}
+    .subscribr {
+	width: 150px;
+}
+    .social a {
+	padding-left: 8px;
+	font-size: 16px;
+	height: 30px;
+	width: 30px;
+	line-height: 26px;
+}
+    .copyright {
+	font-size: 10px;
+}
+    
+    
+    
+}
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.subscribr {
+	width: 250px !important;
+}
+    .navbar {
+	background: #2b4488;
+	padding: 5px 0 !important;
+}
+    .bannertext p {
+	padding: 54px 80px 0 80px;
+}
+    .bannertext h1 { 
+	font-size: 20px; 
+}
+    .bannerbutton {
+	padding: 10px 15px;
+}
+    .storytext p {
+	padding-right: 10px;
+        text-align: justify;
+}
+    .expertise p {
+	padding: 0 5px;
+}
+    .expertise {
+	padding-bottom: 20px;
+}
+    .storytext {
+	padding-left: 30px;
+}
+.storyimges {
+	padding: 90px 0 0 10px;
+}
+   .innerp {
+	padding: 25px 30px 33px 30px;
+}
+    .slidetext h5{
+        font-size: 15px;
+}
+    .slidetext p{
+        font-size: 14px;
+}
+    .from {
+	width: 280px;
+	margin-bottom: 15px;
+}
+    textarea {
+	width: 280px;
+}
+    .clien1 img {
+        width: 60%;
+}
+    .clien2 img {
+        width: 60%;
+        margin-bottom: 58px;
+}
+    .subbtn {
+	padding: 7px 32px;
+}
+    .lasth5 {
+	font-size: 14px;
+	font-weight: 700;
+}
+    .footer1stp {
+	font-size: 13px;
+        padding-bottom: 0px;
+}
+    .middlep i {
+	padding-bottom: 19px;
+}
+     .middlep {
+	margin-top: 20px;
+}   
+.col-lg-4.col-md-4.col-sm-8.offset-sm-2 {
+	padding-top: 30px;
+}
+    .lastp {
+	margin-top: 20px;
+}
+    .slideimages {
+	padding-left: 11px;
+}
+    .ankor a {
+	font-size: 10px;
+}
+    .ankor{
+	width: 245px;
+}
+    .subscribr {
+	width: 150px;
+}
+    .social a {
+	padding-left: 8px;
+	font-size: 16px;
+	height: 30px;
+	width: 30px;
+	line-height: 26px;
+}
+    .copyright {
+	font-size: 10px;
+}
+    .social {
+	margin: 35px 0 18px 0;
+}
+    .footerbottom {
+	height: 689px;
+}
+    
+    .lasstt5 {
+	font-size: 16px;
+}
+    
+    
+}
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .Member img {
+	width: 75% !important;
+}
+    .teamspan {
+	border: none !important;
+}
+.subscribr {
+	width: 220px !important;
+}
+    .lastrow {
+	margin-top: 70px;
+	margin-right:  px;
+}
+    .navbar {
+	background: #2b4488;
+	padding: 5px 0 !important;
+}
+    .bannertext p {
+	padding: 54px 20px 0 20px;
+}
+    .bannertext h1 {
+	font-size: 24px;
+}
+    .bannerbutton {
+	padding: 10px 15px;
+}
+    .storytext {
+	padding-left: 12px;
+}
+    .storytext h5{
+        text-align: center;
+    }
+    .storytext p {
+	padding-right: 10px;
+        text-align: justify;
+}
+    .expertise p {
+	padding: 0 5px;
+}
+    .expertise {
+	padding-bottom: 20px;
+}
+    .heading h4 {
+	font-size: 15px;
+}
+    .heading h6 {
+	font-size: 13px;
+}
+    .team {
+	height: 100%;
+}
+    .teamtext p {
+	font-size: 14px;
+}
+    .col-lg-3.col-md-3.col-sm-4.col-xs-12.Member.text-center.img-fluid {
+	padding-bottom: 30px;
+}
+    .col-lg-3.col-md-3.d-sm-none.d-xs-none.text-center.w-100.img-fluid {
+	display: none;
+}
+    .storytext {
+	padding-left: 30px;
+}
+.storyimges {
+	padding: 88px 0 26px 40px;
+}
+   .innerp {
+	padding: 25px 10px 33px 10px;
+}
+    .slidetext {
+	padding: 50px 0 100px 0;
+}
+    .slidetext h5 {
+	font-size: 14px;
+}
+    .slidetext p{
+        font-size: 14px;
+}
+    .from {
+	width: 99%;
+    text-align: center;
+	margin-bottom: 15px;
+}
+    textarea {
+        text-align: center;
+	width: 99%;
+}
+   .clien1 img {
+	width: 44%;
+       display:block;
+}
+    .clien2 {
+        display: none;
+        
+}
+    .subbtn {
+	padding: 7px 32px;
+}
+    .lasth5 {
+	font-size: 14px;
+	font-weight: 700;
+}
+    .footer1stp {
+	font-size: 13px;
+        padding-bottom: 0px;
+}
+    .middlep i {
+	padding-bottom: 19px;
+}
+     .middlep {
+	margin-top: 20px;
+}   
+.col-lg-4.col-md-4.col-sm-8.offset-sm-2 {
+	padding-top: 30px;
+}
+    .lastp {
+	margin-top: 20px;
+}
+    .slideimages {
+	padding-left: 0;
+}
+    .ankor a {
+	font-size: 10px;
+}
+    .ankor{
+	width: 245px;
+}
+    .subscribr {
+	width: 150px;
+        
+}
+    .social a {
+	padding-left: 8px;
+	font-size: 16px;
+	height: 30px;
+	width: 30px;
+	line-height: 26px;
+}
+    .copyright {
+	font-size: 10px;
+}
+    .social {
+	margin: 35px 0 18px 0;
+}
+    .footerbottom {
+	height: 689px;
+}
+    
+    .lasstt5 {
+	font-size: 15px;
+}
+ .footertop h5 {
+	margin: 43px 0 30px 0;
+	text-align: center;
+}
+    .col-lg-7.col-md-7.col-sm-7.col-xs-12.clien1 {
+	margin-left: 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
